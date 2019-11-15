@@ -1,11 +1,12 @@
 <br>
-<div class=container>
   <div class="card">
     <h1><%=@cocktail.name%> ! 😎</h1>
+
     <% @cocktail.doses.each do |dose| %>
       <li>
         <%=dose.description%>
         <%= dose.ingredient.name%>
+        <%= cl_image_tag cocktail.photo.key, width: 400, height: 300, crop: :fill %>
         <%=link_to "delete", dose_path(dose), method: :delete %>
       </li>
     <% end %>
@@ -14,4 +15,4 @@
     <%=link_to "Add a new dose", new_cocktail_dose_path(@cocktail)%>
     <%=link_to "Delete", dose_path(@cocktail)%>
   </div>
-</div>
+
