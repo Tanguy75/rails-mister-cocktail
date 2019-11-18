@@ -1,11 +1,13 @@
 .footer {
-  background: #F4F4F4;
+  margin-top: 698px;
+  background: #ECECEC;
+  display: -webkit-box;
   display: flex;
-  align-items: center;
+  -webkit-box-pack: justify;
   justify-content: space-between;
-  height: 100px;
-  padding: 0px 50px;
-  color: rgba(0,0,0,0.3);
+  height: 13px;
+  padding: 58px 50px;
+  color: rgba(0, 0, 0, 0.3);
 }
 .footer-links {
   display: flex;
@@ -24,3 +26,5 @@
 .footer .fa-heart {
   color: #D23333;
 }
+
+
