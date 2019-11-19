@@ -4,19 +4,37 @@
   padding: 150px 0;
 }
 
-.banner h1 {
-  margin: 0;
-  color: white;
-  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
-  font-size: 32px;
-  font-weight: bold;
+.paragraph  {
+  font-size: 10px;
 }
 
+.banner h1 {
+  margin-left: 50px;
+  color: white;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+  font-size: 108px;
+  font-weight: bold;
+  line-height: 65px;
+}
+}
+
+.banner h2 {
+  margin-left: 50px;
+  color: white;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+  font-size: 48px;
+  font-weight: bold;
+  line-height: 47px;
+}
+
+
 .banner p {
-  font-size: 20px;
+  font-size: 18px;
   color: white;
   opacity: .7;
   text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+  margin-left: 50px;
+  line-height: 8px;
 }
 
 a {
